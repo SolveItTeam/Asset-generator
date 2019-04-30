@@ -1,0 +1,6 @@
+
+extension UIImage {
+    static func from(key: ImageKeys) -> UIImage? {
+        return UIImage(named: key.rawValue)
+    }
+}
